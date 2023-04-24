@@ -1,0 +1,12 @@
+After dropping all outlier remover
+linear regression - 43
+
+outlier focus
+1. bhk outlier remover < 300 per total_sqft
+2. remove_pps_outliers using 1 std pps(price per square)
+3. Now we can remove those 2 BKH apartments whose price_per_sqt is less than mean of price_per_sqt of 1 BHK
+4. Bath outlier df8[df8.bath>df8.bhk+2]
+
+After implementing outlier focus 2 & 3, linear regression score increased
+ to 66
+
