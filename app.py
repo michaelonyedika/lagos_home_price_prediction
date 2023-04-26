@@ -9,10 +9,10 @@ __model = None
 __property_type = None
 __model_columns = None
 
-lagos_columns = './artifacts/lagos_columns_now.json'
-model_columns = './artifacts/model_columns_now.json'
-data_json = './artifacts/data.json'
-pickle_ = './artifacts/lagos_prediction_using_tree_now.pickle'
+lagos_columns = './server/artifacts/lagos_columns_now.json'
+model_columns = './server/artifacts/model_columns_now.json'
+data_json = './server/artifacts/data.json'
+pickle_ = './server/artifacts/lagos_prediction_using_tree_now.pickle'
 
 
 def get_estimated_price(location, property_type, bhk):
